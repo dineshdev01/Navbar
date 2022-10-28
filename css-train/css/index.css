@@ -1,0 +1,62 @@
+*{
+   font-family: monospace;
+}
+body{
+   margin: 0;
+    background-image: url("https://images.pexels.com/photos/66284/winter-nature-season-trees-66284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.nav{
+    
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    box-shadow: 5px 10px 15px #b3b3b3;
+   
+}
+
+.nav-list-group{
+list-style-type: none;
+letter-spacing: 5px;
+margin: auto;
+float: right;
+
+}
+.nav-list-items{
+    float: left;
+    font-size: large;
+    margin: 20px;
+    padding: 5px;
+}
+.nav-list-items a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px #b3b3b3;
+    padding: 5px;
+}
+.nav-list-items a:hover{
+    box-shadow: 1px 2px 3px #3b60d8;
+    transform: scale(1.5);
+    
+}
+.nav-list-items a:active{
+    box-shadow: 1px 2px 3px #02ad2d;
+}
+@media only screen and (max-width: 600px) {
+    .nav{
+        width: 100%;
+    }
+    
+    .nav-list-items{
+        float: none;
+        font-size: large;
+        text-align: center;
+        margin: 0px;
+        padding: 5px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+}
