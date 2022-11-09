@@ -10,5 +10,7 @@ var wwhite = puthusu.substring(position);
 print(puthusu.substring(position));
 print(white.length);
 print(wwhite.length);
+print(puthusu.toUpperCase());
+print(puthusu.toLowerCase());
   
 }
