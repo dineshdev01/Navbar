@@ -12,5 +12,6 @@ print(white.length);
 print(wwhite.length);
 print(puthusu.toUpperCase());
 print(puthusu.toLowerCase());
-  
+print(puthusu.contains("Tamil"));
+print(puthusu.contains("Kerala"));  
 }
