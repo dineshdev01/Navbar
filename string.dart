@@ -13,7 +13,7 @@ print(wwhite.length);
 print(puthusu.toUpperCase());
 print(puthusu.toLowerCase());
 print(puthusu.contains("Tamil"));
-print(puthusu.contains("Kerala")); 
+print(puthusu.contains("English")); 
 List list = puthusu.split(" ");
 print(list); 
 }
